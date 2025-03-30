@@ -23,6 +23,7 @@ h1 {font-size: 80px;
     background-image:  url(obrazky/pozadi\ obrazek.jpg);
     background-repeat: repeat;
     background-size: cover;
+    text-shadow: 0 3px 10px 0 rgb(37, 37, 35)
     ;
 } 
     
