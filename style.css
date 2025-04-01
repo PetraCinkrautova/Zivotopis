@@ -46,19 +46,23 @@ h2 {color: rgb(176, 134, 9);}
 }  
 
 .Zajmy {
-    margin: 0px 0px 35px 0px;
+    
     line-height: 22px;
 }
 .Znalosti_dovednosti {
     line-height: 22px;
+   
 }
 
 .Vzdelani {
     clear: left;
+    
 }
     
 
-section {padding: 7px 30px;}
+section {padding: 7px 0;
+    margin: 30px;
+}
 
 footer {
     background-color: rgb(26, 28, 25);
@@ -69,12 +73,15 @@ footer {
 .druhysloupec {
     padding-left: 30px;
 }
-.Znalosti_dovednosti img {width: 750px;
+.Znalosti_dovednosti img {width: 800px;
     border-radius: 5%;
     float: right;
-    margin: 0 30px 35px 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+   
     
 }
+
 .Paticka {
     clear: right;
 }
