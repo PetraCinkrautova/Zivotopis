@@ -1,3 +1,5 @@
+* {box-sizing: border-box;}
+
 body {background-color: rgb(240, 253, 224);
     font-family: "Bitter", serif;
     font-optical-sizing: auto;
@@ -30,11 +32,12 @@ h1 {font-size: 80px;
 h2 {color: rgb(176, 134, 9);}
 
 .Kontakt {
-    margin: 20px 0 0 0;
+    margin-top: 20px;
     padding: 20px 0 0 0;
 }
 
 .Praxe {padding: 10px 0 0 0;
+   
 
 }
 
@@ -42,7 +45,8 @@ h2 {color: rgb(176, 134, 9);}
 .Kontakt img {width: 300px;
     border-radius: 40%;
     float: left;
-    margin: 0 20px 35px 30px;
+    margin: 20px 70px 40px 30px;
+
 }  
 
 .Zajmy {
@@ -73,11 +77,12 @@ footer {
 .druhysloupec {
     padding-left: 30px;
 }
-.Znalosti_dovednosti img {width: 800px;
+.Znalosti_dovednosti img {max-width: 60%;
     border-radius: 5%;
     float: right;
     margin-left: 20px;
     margin-bottom: 20px;
+    margin-right: 30px;
    
     
 }
